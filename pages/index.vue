@@ -32,15 +32,15 @@
       <div class="text-3xl font-bold">I'm a Web Developer</div>
     
     </div>
-    <div  class="grid grid-cols-4 gap-4">
+    <div  class="grid grid-cols-4 gap-4 mx-10">
         <div v-for="(i, index) in data" :key="index" class="w-60 bg-white my-10 rounded-xl text-[#000000] p-5 ">
           <img :src="i.img" class="w-40 h-40 mx-auto" alt="logo"/>
           <h1 class="text-lg font-bold">{{i.title}}</h1>
           <p>Lorem ipsum dolor, sit amet ...</p>
         </div>
       </div>
-    <div class="h-10">
-      huevnag
+    <div   >
+      <DaD/>
     </div>
   </div>
 </template>
